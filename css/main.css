@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/landscape.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+@media (min-width: 650px){
+	body{
+		background-image: url("../img/maxresdefault.jpg");
+		}
+}
+
+@media (min-width: 465px){
+	body{
+		background-image: url("../img/dawn.jpg");
+	}
+}
+
+
